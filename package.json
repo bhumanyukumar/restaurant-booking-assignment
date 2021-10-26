@@ -12,7 +12,7 @@
   "author": "Bhumanyu",
   "license": "",
   "dependencies": {
-    "ajv": "^8.6.3",
+    "ajv": "^6.10.2",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",

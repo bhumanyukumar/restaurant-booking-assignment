@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "tslint-clean-code",
+    "tslint:recommended",
+    "tslint-sonarts"
+  ],
+  "rulesDirectory": [
+    "node_modules/tslint-clean-code/dist/src/"
+  ],
+  "rules": {
+    "no-commented-out-code": true,
+    "no-identical-expressions": false,
+    "object-literal-sort-keys": false,
+    "no-console": true,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double",
+      "avoid-escape"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ]
+  },
+  "jsRules": true
+}
